@@ -11,7 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/TRACE-Structures/climate_resal/',
     packages=find_packages(exclude=["demo", "demo.*"]),
-    py_modules=['climate_resal'],
+    py_modules=['climate_resilience'],
     install_requires=[
         'earthkit',
         'reverse_geocoder',
