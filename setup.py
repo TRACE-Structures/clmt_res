@@ -10,7 +10,7 @@ setup(
     long_description = Path("README.md").read_text(encoding="utf-8"),
     long_description_content_type='text/markdown',
     url='https://github.com/TRACE-Structures/climate_resilience/',
-    packages=find_packages(),
+    packages=find_packages(exclude=["demo", "demo.*"]),
     py_modules=['climate_resilience'],
     install_requires=[
         'earthkit',
